@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Final Portfolio RoundCapybara</title>
+    <link rel="stylesheet" href="Work.css" />
+</head>
+
+<body>
+    <div class="resp-intro">
+        <nav class="navbar">
+            <div>
+                <img class="logo" src="images/capybara-icon.png"></img>
+            </div>
+            <div>
+                <ul class="nav-list">
+                    <li>
+                        <a class="nav-item" href="index.html">HOME</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <br class="image-padding"></br>
+        <br class="image-padding"></br>
+
+        <div class="image-container">
+            <img class="intro-image" src="images/responsivenessphotos/redesign-mockup-orange.png" />
+        </div>
+        <br></br>
+        <div class="box">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+    <div class="work-section">
+        <div class="work-container">
+            <div class="title-section">
+                <div class="title-left-col">
+                    <p class="title-heading">Responsive Redesign</p>
+                    <h1 class="title-overview-resp">Overview</h1>
+                    <p class="overview-text">After looking through Suzzane Collin’s personal website, I tried to
+                        identify
+                        and analyze flaws in the interface in order to brainstorm possible improvements to the site. I
+                        created mockups to visualize the changes I was going to make and then attempted to code those
+                        changes into a responsive website.
+                    </p>
+                </div>
+                <div class="title-info">
+                    <div class="info-div info-resp">
+                        <h4>Duration</h4>
+                        <p>2 weeks</p>
+                    </div>
+                    <div class="info-div info-resp">
+                        <h4>Skills</h4>
+                        <p>JavaScript, HTML, CSS, Design Thinking</p>
+                    </div>
+                    <div class="info-div info-resp">
+                        <h4>Tools</h4>
+                        <p> Basalmiq, Figma, VS Code</p>
+                    </div>
+                    <div class="info-div info-resp">
+                        <h4>Date Completed</h4>
+                        <p>October 18, 2022</p>
+                    </div>
+                </div>
+            </div>
+            <div class="sub-section">
+                <div class="image-container">
+                    <img class="image-clear overview-image" src="images/responsivenessphotos/Group 2.png" />
+                </div>
+            </div>
+            <div class="sub-section">
+                <p>Suzzane Collin's original website: </p>
+                <a href="https://www.suzannecollinsbooks.com/index.htm">
+                    <div class="image-container">
+                        <img class="image-full-width" src="images/responsivenessphotos/suzzan.png" />
+                    </div>
+                </a>
+            </div>
+            <div class="sub-section">
+                <h1 class="work-section-title">Usability Issues</h1>
+                <p>These were the usability issues I noticed with the site:</p>
+                <ul>
+                    <li class="list-outer">
+                        Too much scrolling to get information
+                        <ul>
+                            <li class="list-inner">
+                                Causes the amount of text to be misaligned on desktop and tablet view
+                            </li>
+                            <li class="list-inner">
+                                The quick links on the right side doesn’t follow you so not easily accessible
+                            </li>
+                            <li class="list-inner">
+                                Endless scrolling on mobile view
+                            </li>
+                            <li class="list-inner">
+                                It’s not clear that some of the text can act as a link . You have to hover over it first
+                                to see that it changes color
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="list-outer">
+                        Links doesn’t bring you directly to the product or author page, only brings you to the general
+                        site and you’ll have to search for things related to the author yourself
+                    </li>
+                    <li class="list-outer">
+                        The column on the right side contains the same information which can be repetitive with links
+                        visible on other tabs
+                    </li>
+                </ul>
+            </div>
+            <div class="sub-section">
+                <h1 class="work-section-title">Accessibility Issues</h1>
+                <p><a href="https://webaim.org/">WebAim</a> is a website where you can paste in another website’s URL in
+                    which WebAim will access how accessible the website is for users. It will examine properties such as
+                    color contrasts, fonts sizes, layout of components and more to determine a score for how accessible
+                    a site is.
+                </p>
+                <p>The website was put into WebAim Wave to examine for accessibility issues and this was the result:</p>
+                <ul>
+                    <li class="list-outer">Images did not contain alt tags, people who use screen readers will not
+                        be able to know that there is an image
+                    </li>
+                    <li class="list-outer">A heading element was used as padding when it should just be padding that
+                        is used
+                        <ul>
+                            <li class="list-inner">
+                                Using heading elements can be confusing if the information is empty
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="list-outer">Image caption text can be really small for some people</li>
+                    <li class="list-outer">WebAim detected some contrast issues for the color of the tabs, but it
+                        seems to be inaccurate</li>
+                </ul>
+            </div>
+            <div class="sub-section">
+                <h1 class="work-section-title">Lofi prototype</h1>
+                <p>Before creating the wireframes, I tried to understand how users visiting Suzzane Collin’s site might
+                    feel in order to try and cater to them.</p>
+                <p>Empathize</p>
+                <ul>
+                    <li class="list-outer">
+                        User who uses screen reader
+                    </li>
+                    <li class="list-outer">
+                        A fan of Suzanne Collins who wants to find more books by her
+                    </li>
+                </ul>
+                <p>"How might we..." questions</p>
+                <ul>
+                    <li class="list-outer">
+                        Improve the readability of our page</li>
+                    <li class="list-outer">How could our page be more accessible to those who use screen readers
+                    </li>
+                    <li class="list-outer">How might we make exploration more convenient</li>
+                    <li class="list-outer">How might we improve user experience on mobile devices</li>
+                </ul>
+            </div>
+            <div class="resp-grid">
+                <img src="images/responsivenessphotos/desktop1.png" />
+                <img src="images/responsivenessphotos/desktop2.png" />
+                <img src="images/responsivenessphotos/desktop3.png" />
+                <img src="images/responsivenessphotos/phone1.png" />
+                <img src="images/responsivenessphotos/phone2.png" />
+                <img src="images/responsivenessphotos/phone3.png" />
+                <img src="images/responsivenessphotos/phone4.png" />
+                <img src="images/responsivenessphotos/tablet1.png" />
+                <img src="images/responsivenessphotos/tablet2.png" />
+                <img src="images/responsivenessphotos/tablet3.png" />
+                <img src="images/responsivenessphotos/tablet4.png" />
+            </div>
+            <div class="sub-section">
+                <h1 class="work-section-title">Visual Style Guide</h1>
+                <p>The visual style guide is meant to keep the project’s design work consistent. In a process for a
+                    team, it makes handoffs to other developers easier. Within Figma, I created a guide to use for
+                    redesigning Suzzane Collin’s website. It includes the main colors, typography, and components in
+                    different states.</p>
+                <div class="image-container">
+                    <img class="image-full-width-no-shadow" src="images/responsivenessphotos/vsGuide.png" />
+                </div>
+            </div>
+            <div class="sub-section">
+                <h1 class="work-section-title">Hifi Prototype</h1>
+                <p>Based on my lofi wireframes and the visual style guide, I created hifi prototypes for a desktop,
+                    tablet, and mobile device.</p>
+                <p class="p-bold">Hifi for desktop with annotations</p>
+                <div class="image-container">
+                    <a
+                        href="https://www.figma.com/file/UANR7FcTrd0jES9RR0sug4/Suzanne-Collins-Redesign?node-id=9%3A46&t=cV22qsuc6EfUOApD-0"><img
+                            class="image-full-width" src="images/responsivenessphotos/desktop-hifi.png" />
+                    </a>
+                </div>
+                <br></br>
+                <p class="p-bold">Hifi for tablet with annotations</p>
+                <div class="image-container">
+                    <br></br>
+                    <a
+                        href="https://www.figma.com/file/UANR7FcTrd0jES9RR0sug4/Suzanne-Collins-Redesign?node-id=16%3A68&t=cV22qsuc6EfUOApD-0"><img
+                            class="image-full-width" src="images/responsivenessphotos/tablet-hifi.png" />
+                    </a>
+                </div>
+                <br></br>
+                <p class="p-bold">Hifi for phone with annotations</p>
+                <div class="image-container">
+                    <a
+                        href="https://www.figma.com/file/UANR7FcTrd0jES9RR0sug4/Suzanne-Collins-Redesign?node-id=16%3A69&t=cV22qsuc6EfUOApD-0"><img
+                            class="image-full-width" src="images/responsivenessphotos/phone-hifi.png" />
+                    </a>
+                </div>
+            </div>
+            <div class="sub-section">
+                <h1 class="work-section-title">Challenges</h1>
+                <p>I was extremely new to web developing and ran into trouble with coding parts of my code. Using online
+                    tutorials, I figured out how to make the navigation bar responsive through media queuries and other
+                    CSS tools. However, I couldn't quite figure out how to remove the background color of the icons.
+                    Additionally, I had tried to use z-indexes in order to keep the navigation bar at the top, yet when
+                    I uploaded the pages onto github, the images lay on top of the navigation bar when testing for
+                    responsiveness.</p>
+            </div>
+            <div class="sub-section">
+                <h1 class="work-section-title">Final Product</h1>
+                <p>This website was meant to be a visual display of the potential changes. The buttons are dummy
+                    elements and will not lead to an external website.</p>
+                <a href="https://roundcapybara121.github.io/responsive-redesign/">
+                    <div class="image-container">
+                        <img class="image-full-width" src="images/responsivenessphotos/suzzan-redesign.png" />
+                    </div>
+                </a>
+            </div>
+            <div class="sub-section">
+                <h1 class="work-section-title">Reflection on Critiques</h1>
+                <p>After my redesign was peer reviewed, these were the critiques I received:
+                </p>
+                <ul>
+                    <li class="list-outer">
+                        Site felt empty because of the white space on the sides and too much content was taken away.
+                        <ul>
+                            <li class="list-indent"></li>
+                            <u>Idea</u>: I would spread the content out more so that there is less white space.
+                            Additionally, a patterned background would aid in reducing the emptiness.
+                    </li>
+                </ul>
+                </li>
+                <li class="list-outer">
+                    The scroll issue does not seem to be fixed. Even after opening the collapse button, users still
+                    have to scroll through a lot of information
+                    <ul>
+                        <li class="list-indent"></li>
+                        <u>Idea</u>: I could put each review into a card that users can click to open. Then it would
+                        reveal more information about the review.
+                </li>
+                </ul>
+                </li>
+                <li class="list-outer">
+                    One person noted that the white text on the orange background was hard to read.
+                    <ul>
+                        <li class="list-indent"></li>
+                        <u>Idea</u>: I would have to further research into what colors would be appropriate for a new
+                        design. In the future, I will consider colors that contrast better and put that into
+                        webAim to reassess.
+                </li>
+                </ul>
+                </li>
+                <li class="list-outer">
+                    The website was not fully responsive. When viewed on the phone, users felt that the image would
+                    block certain parts of the text.
+                    <ul>
+                        <li class="list-indent"></li>
+                        <u>Idea</u>: I believe the reason behind this issue is that I did not use the media queries and
+                        divs properly. I believe there was an issue with the padding or that I didn’t properly
+                        divide the different components into their own divs, allowing them to overlap. To fix
+                        this issue, I think I can put the image and the content into a container div, then
+                        divide them further into their own, smaller wrappers. Then use display flex and justify
+                        content in order to move them from being horizontal to vertical to each other.
+                </li>
+                </ul>
+                </li>
+                <li class="list-outer">
+                    Users also noted that the design for the tablet was not too different from the desktop version
+                    and would like to see something more catered towards tablet users.
+                    <ul>
+                        <li class="list-indent"></li>
+                        <u>Idea</u>: I originally designed the tablet interface based off of the desktop interface.
+                        After reviewing the aspects of a desktop compared to a tablet, I agree with the critique
+                        in that the tablet should be seen as a bigger mobile device. In the future, I will
+                        consider the limited use of the keyboard, and need for easy navigation. Additionally,
+                        since desktops users have the capability for a more complex design, I will consider
+                        making the experience more creative.
+                </li>
+                </ul>
+                </li>
+                </ul>
+            </div>
+            <div class="sub-section">
+                <h1 class="work-section-title">Conclusion</h1>
+                <p>This project provided me invaluable insight into the different considerations that designers often
+                    make. Though I did not create a design that fully satisfied users, I am glad that I was able to
+                    learn how to make these improvements in the future.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-image-container">
+            <img class="footer-image" src="images/capy-gif.gif" />
+        </div>
+        <p>You've reached the end.</p>
+        <p>See ya!</p>
+    </div>
+</body>

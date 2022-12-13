@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Final Portfolio RoundCapybara</title>
+    <link rel="stylesheet" href="Work.css" />
+</head>
+
+<body>
+    <div class="dev-intro">
+        <nav class="navbar">
+            <div>
+                <img class="logo" src="images/capybara-icon.png"></img>
+            </div>
+            <div>
+                <ul class="nav-list">
+                    <li>
+                        <a class="nav-item" href="index.html">HOME</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <br class="image-padding"></br>
+        <br class="image-padding"></br>
+        <div class="image-container">
+            <img class="intro-image" src="images/developmentPhotos/plant-mockup-green.png" />
+        </div>
+        <br></br>
+
+        <div class="box">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+    <div class="work-section">
+        <div class="work-container">
+            <div class="title-section">
+                <div class="title-left-col">
+                    <p class="title-heading">Development</p>
+                    <h1 class="title-overview">Overview</h1>
+                    <p class="overview-text">The goal of this project was to develop an interactive interface, use
+                        interface components, and tie the components to an internal data state using React JS. I created a
+                        list-based interface centered around buying plants.
+                    </p>    
+                </div>
+                <div class="title-info">
+                    <div class="info-div info-dev">
+                        <h4>Duration</h4>
+                        <p>2 weeks</p>
+                    </div>
+                    <div class="info-div info-dev">
+                        <h4>Skills</h4>
+                        <p>JavaScript, HTML, CSS</p>
+                    </div>
+                    <div class="info-div info-dev">
+                        <h4>Tools</h4>
+                        <p> React JS, VS Code</p>
+                    </div>
+                    <div class="info-div info-dev">
+                        <h4>Date Completed</h4>
+                        <p>November 29, 2022</p>
+                    </div>
+                </div>
+            </div>
+            <div class="sub-section">
+                <div class="image-container">
+                    <img class="image-clear overview-image" src="images/developmentPhotos/Group 4.png" />
+                </div>
+            </div>
+            <div class="sub-section">
+                <h1>Why an online plant shop?</h1>
+                <p>Nowadays, people go online to shop for everything -– from clothing to food. The main appeal of online
+                    shops is that they are convenient. Online shops allow businesses to remove a mediator between the
+                    seller and the buyer and streamline the checkout process.
+                </p>
+                <p>
+                    Plants are often sold in small boutiques without an online presence. What if we were able to help
+                    these small businesses flourish by pushing their services online?
+                </p>
+            </div>
+            <div class="sub-section">
+                <h1 class="work-section-title">Understanding the design</h1>
+                <h3>Basic Interations</h3>
+                <p>Here are components to consider for a shop:</p>
+                <p class="p-bold">Aggregator</p>
+                <ul>
+                    <li>Something to tally up the total cost of plants &#8594;
+                        allow customers to quickly know when they’ve reach their budget
+                    </li>
+                    <li>Something that keeps track of what plants are in the cart &#8594;
+                        allow customers to quickly know what items they’ve added so far
+                    </li>
+                    <li>A way to remove items from the cart &#8594;
+                        allow customers a way to recover from mistakes without having to restart the process
+                    </li>
+                </ul>
+                <p class="p-bold">Search Operations</p>
+                <ul>
+                    <li>A way to sort the different plants &#8594; allows customers choose how to best search through
+                        the different selections
+                    </li>
+                    <li>A way to filter between different properties of plants &#8594; allows customers to easily view
+                        only the items that they want
+                    </li>
+                </ul>
+                <h3>Vision Board</h3>
+                <p>Take a look at what inspired my final design!</p>
+                <p>What I noticed with these shops was that they had varying hues of green and a complementary color to contrast the green. This makes the overall look very pleasing to the eye. Additionally, the edges, corners, and font have a refined look to them by using rounded corners and bouncy font.</p>
+                <div class="image-grid">
+                    <img class="image-grid-col-2" src="images/developmentPhotos/inspo-categories.png">
+                    <img src="images/developmentPhotos/inspo-filters.png">
+                    <img class="image-grid-col-2" src="images/developmentPhotos/inspo-plant.png">
+                    <img class="image-grid-col-2" src="images/developmentPhotos/inspo-sill.png">
+                    <img src="images/developmentPhotos/cafe1.png" />
+                    <img src="images/developmentPhotos/cafe2.jpeg" />
+                    <img src="images/developmentPhotos/cafe3.jpeg" />
+                    <img src="images/developmentPhotos/cafe4.jpeg" />
+                </div>
+            </div>
+            <div class="sub-section">
+                <h1 class="work-section-title">Let's Code</h1>
+                <p>Let's take a look at how all the pieces of my code fit together</p>
+                <p>The central use of React was in managing the different states of the items throughout the website.
+                    This diagram gives a rough idea of how states change between parts of my code and user interactions
+                </p>
+                <div class="image-container">
+                    <img class="image-clear" src="images/developmentPhotos/codeflow.png" />
+                </div>
+            </div>
+            <div class="sub-section">
+                <h1 class="work-section-title">Final Product</h1>
+                <a href="https://roundcapybara121.github.io/development-project"><img class="image-full-width"
+                        src="images/developmentPhotos/plant.png" /></a>
+            </div>
+            <div class="sub-section">
+                <h1 class="work-section-title">Future Improvements</h1>
+                <p>Here are things I would like to add if given more time for this project</p>
+                <ul>
+                    <li>Make the website more personalized by adding an “about” section into the header
+                    </li>
+                    <li>In case the store sold more items, add a search bar to allow searching for items by name
+                    </li>
+                    <li>Include tax and shipping costs in the aggregator
+                    </li>
+                    <li>Add more ways to filter. For example, by color, high or low water needed, or specific heights
+                    </li>
+                </ul>
+            </div>
+            <div class="sub-section">
+                <h1 class="work-section-title">Conclusion</h1>
+                <p>React is a powerful tool in that we can manage states. This allows for us to code interactions such as button presses. In the future,  I hope to be able to utilize this tool further and create a more developed e-commerce platform. </p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-image-container">
+            <img class="footer-image" src="images/capy-gif.gif" />
+        </div>
+        <p>You've reached the end.</p>
+        <p>See ya!</p>
+    </div>
+</body>
